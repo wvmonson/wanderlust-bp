@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Not all those who wander are lost</title>
-    <!-- link google fonts here -->
-    <!-- link all the css here -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:800" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <nav class="navbar navbar-default">
+<body data-spy="scroll" data-target="#main-nav">
+    <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
         <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -22,20 +21,94 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    Wanderlust
+                    <img src="img/wanderlust-logo.png" alt="Logo">
                 </a>
             </div> <!-- /.navbar-header -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">a Technologist</a></li>
+                  <li>
+                    <span class="i-am">I am</span>
+                  </li>
+                    <li div class="active">
+                      <a href="#section-0">a Technologist</a>
+                    </li>
+                    <li>
+                      <a href="#section-1">an Explorer</a>
+                    </li>
+                    <li>
+                      <a href="#section-2">a Hobyist</a>
+                    </li>
+                    <li>
+                      <a href="#section-3">a Developer</a>
+                    </li>
+                    <li>
+                      <a href="#section-4">a Dreamer</a>
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
-    <!-- body site code here -->
+    <div class="container quote">
+      <div class="row">
+        <col-xs-6 class="col-xs-offset-6">
+          <h3 class="visible-xs-block">Not all those who wander are lost.</h3>
+        </col-xs-6>
+      </div>
+    </div>
+    <!-- Section 0 -->
+    <section id="section-0" class="hero section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hidden-xs">
+            <h2>I am a Technologist</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-1" class="s1 section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hidden-xs">
+            <h2>I am a Explorer</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-2" class="s2 section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hidden-xs">
+            <h2>I am a Hobbyist</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-3" class="s3 section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hidden-xs">
+            <h2>I am a Developer</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-4" class="s4 section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hidden-xs">
+            <h2>I am a Dreamer</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- link all the scripts here -->
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
